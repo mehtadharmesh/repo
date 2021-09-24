@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="yahoo-finance55" fetch="https://github.com/lukaszbanasiak/" />
-  <project name="yahoo-finance.git"  remote="yahoo-finance55" revision="master" path="my_yahoo-finance" />
+  
+  <!-- list of gits -->
+  
+  <!--  ******* -->
+  <remote  name="yahoo-finance55" fetch="https://github.com/lukaszbanasiak/" />  
+  <project remote="yahoo-finance55" name="yahoo-finance.git"   revision="master" path="my_yahoo-finance" />
+  <!--  ******* -->
+  
+  
+  
+  
 </manifest>
