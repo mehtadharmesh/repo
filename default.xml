@@ -3,12 +3,15 @@
   
   <!-- list of gits -->
   
+  <!--  **** 1 *** e.g. https://github.com/lukaszbanasiak/yahoo-finance.git  -->
+  <remote  name="yahoo-finance_55" fetch="https://github.com/lukaszbanasiak/" />  
+  <project remote="yahoo-finance_55" name="yahoo-finance.git"   revision="master" path="my_yahoo-finance" />
   <!--  ******* -->
-  <remote  name="yahoo-finance55" fetch="https://github.com/lukaszbanasiak/" />  
-  <project remote="yahoo-finance55" name="yahoo-finance.git"   revision="master" path="my_yahoo-finance" />
+  
+  
+  <!--  **** 2 *** e.g. https://github.com/sstrickx/yahoofinance-api.git   -->
+  <remote  name="yahoo-finance_56" fetch="https://github.com/sstrickx/" />  
+  <project remote="yahoo-finance_56" name="yahoofinance-api.git"   revision="master" path="my_yahoo-finance_api" />
   <!--  ******* -->
-  
-  
-  
   
 </manifest>
